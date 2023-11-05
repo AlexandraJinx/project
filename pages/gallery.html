@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Мой проект</title>
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="shortcut icon" href="../img/free-icon-japanese-4917696.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar__wrap">
+                <div class="hamb">
+                    <div class="hamb__field" id="hamb">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+                <a href="#" class="logo" id="logo">Александра Горбачёва</a>
+                <ul class="menu" id="menu">
+                    <li><a href="../index.html\">Главная</a></li>
+                    <li><a href="calc.html">Калькулятор</a></li>
+                    <li><a href="gallery.html">Галерея</a></li>
+                    <li><a href="portfolio.html">Портфолио</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="popup" id="popup"></div>
+
+    <header class="header">
+        <div class="container">
+            <div class="content">
+                <h1>Галерея</h1>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="content">
+                <br>
+                <p class="galery">Предлагаю вам посмотреть на котиков</p>
+                <br>
+            </div>
+        </div>
+
+        <div class="slider__wrap">
+
+            <div id="slider__viewport" class="slider__viewport">
+                <div class="slider">
+                    <div class="slide"><img src="../img/slider/174159-kot-datskij_dog-gumannoe_obshhestvo_doliny_guronov-bikolor_koshka-rastenie-1920x1080.jpg" alt="1" title="1"></div>
+                    <div class="slide"><img src="../img/slider/167163-kot-britanskaya_korotkosherstnaya-shartrez-koshachih-bengalskaya_koshka-1920x1080.jpg" alt="2" title="2"></div>
+                    <div class="slide"><img src="../img/slider/169717-kot-milaya_para_kotyat-datskij_dog-kotenok-polosatyj_kot-1920x1080.jpg" alt="3" title="3"></div>
+                    <div class="slide"><img src="../img/slider/172418-kot-milyj_kot-datskij_dog-kotenok-koshka_igrushka-1920x1080.jpg" alt="4" title="4"></div>
+                    <div class="slide"><img src="../img/slider/150506-hishhnik-koshki_malogo_i_srednego_razmera-morda-kozha-kot-1920x1080.jpg" alt="5" title="5"></div>
+                    <div class="slide"><img src="../img/slider/174635-kot-oranzhevyj_mejn_kun-mejn_kun-regdoll-persidskaya_koshka-1920x1080.jpg" alt="6" title="6"></div>
+                </div>
+            </div>
+
+            <div class="slider__control">
+                <div class="slider__control-button slider__control-prev" id="slider__control-prev">Назад</div>
+                <div class="slider__control-button slider__control-next" id="slider__control-next">Вперед</div>
+            </div>
+
+            <div class="slider__pogeination">
+                <div id="viewSlider">
+                    <div class="viewSlide"></div>
+                    <div class="viewSlide"></div>
+                    <div class="viewSlide"></div>
+                    <div class="viewSlide"></div>
+                    <div class="viewSlide"></div>
+                    <div class="viewSlide"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="content">
+                &copy; 2023 Safo
+            </div>
+        </div>
+    </footer>
+    <script src="../assets/js/slide.js"></script>
+    <script src="../assets/js/burger.js"></script>
+</body>
+
+</html>
